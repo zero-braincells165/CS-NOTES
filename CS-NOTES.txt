@@ -1,0 +1,77 @@
+CS notes ni jan
+
+/* Animations */
+.element {
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/* Transform */
+.element {
+  transform: rotate(45deg);
+}
+
+/* z-index */
+.element {
+  z-index: 10;
+}
+
+/* Positioning */
+.element {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+/* Box Model */
+.element {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #000;
+}
+
+/* Colors */
+.element {
+  color: #FF0000;
+}
+
+/* Width and Height */
+.element {
+  width: 100px;
+  height: 50px;
+}
+
+/* Background */
+.element {
+  background-color: #FFFF00;
+}
+
+/* Opacity */
+.element {
+  opacity: 0.5;
+}
+
+---------HTML----------
+
+<!-- Semantic Tags -->
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Multimedia Tags -->
+<img src="image.jpg" alt="Description">
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
